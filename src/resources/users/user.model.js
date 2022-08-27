@@ -16,7 +16,9 @@ const User = new Schema(
       required: true,
       trim: true,
       minlength: 8
-    }
+    },
+    img_buf: String,
+    img_type: String
   },
   { collection: 'users' }
 );
