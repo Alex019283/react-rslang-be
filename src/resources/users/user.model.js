@@ -17,7 +17,7 @@ const User = new Schema(
       trim: true,
       minlength: 8
     },
-    img_buf: String,
+    img_buf: Buffer,
     img_type: String
   },
   { collection: 'users' }
