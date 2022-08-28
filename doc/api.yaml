@@ -78,8 +78,6 @@ components:
           type: string
         img_buf:
           type: string
-        img_type:
-          type: string
     Auth:
       type: object
       properties:
@@ -187,10 +185,7 @@ paths:
                   description: Password
                 img_buf:
                   type: string
-                  description: Base64 avatar image bufer  
-                img_type:
-                  type: string
-                  description: avatar image type    
+                  description: avatar image bufer  
       responses:
         200:
           description: Successful creation.
@@ -245,10 +240,7 @@ paths:
                   description: Password
                 img_buf:
                   type: string
-                  description: Base64 avatar image bufer  
-                img_type:
-                  type: string
-                  description: avatar image type  
+                  description: avatar image bufer  
       responses:
         200:
           description: The user has been updated.
